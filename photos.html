@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <style>
+        /* CSS to prevent image stretching */
+        .photo-gallery img {
+            max-width: 100%;  /* Limits width to the container's width */
+            height: auto;     /* Automatically adjusts height to keep aspect ratio */
+            margin: 10px;     /* Adds some space between images */
+        }
+        .photo-gallery {
+            display: flex;    /* Makes the images align horizontally */
+            flex-wrap: wrap;  /* Allows images to wrap onto new lines if needed */
+            gap: 10px;        /* Spacing between images */
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photos</h1>
+    <p>Here are some photos that represent my interests and favorite memories:</p>
+
+    <div class="photo-gallery">
+        <img src="Screenshot 2024-10-28 at 9.08.43 PM.png" alt="My sweet dog Moe!">
+        <img src="IMG_2254.jpg" alt="My roomate, Mercedes, me, and my friend Owen">
+        <img src="IMG_4768.JPG" alt="My friends and I reunited after the summer!">
+        <img src="IMG_8434.JPG" alt="My friend Lucy and I at TCU">
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Me</a> |
+        <a href="photos.html">Photos</a>
+    </nav>
+</body>
+</html>
